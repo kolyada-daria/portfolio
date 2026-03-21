@@ -2,7 +2,7 @@
 
 Репозиторий содержит отчеты и исходный код лабораторных работ по курсу программирования. Сайт с подробной документацией и разбором задач доступен по ссылке:
 
-**[kolyada-daria.github.io/portfolio]https://kolyada-daria.github.io/portfolio/**
+**[kolyada-daria.github.io/portfolio](https://kolyada-daria.github.io/portfolio/)**
 
 ---
 
