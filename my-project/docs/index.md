@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+# Портфолио учебных проектов
+Сборник отчетов по лабораторным работам.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+### Быстрый переход:
 
-## Commands
+[Обзор лабораторных работ](labs/index.md){.card}
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[Об авторе](about.md){.card}
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<style>
+.card {
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: top;
+  transition: 0.3s;
+}
+.card:hover {
+  border-color: #2094f3;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+</style>

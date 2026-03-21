@@ -16,30 +16,25 @@ nav:
       - Лабораторная №8: labs/lab8.md
       - Лабораторная №9: labs/lab9.md
       - Лабораторная №10: labs/lab10.md
-  - About: about.md
+      - Лабораторная №11: labs/lab11.md
+  - Об авторе: about.md
 
 theme:
   name: material
   language: ru
-  features:
-    - navigation.tabs # Горизонтальное меню сверху
+#  features:
+#    - navigation.tabs # Горизонтальное меню сверху
 
 markdown_extensions:
-  - admonition
-  - pymdownx.details       # Для спойлеров (??? info)
-  - pymdownx.superfences # Для вложенности кода в спойлеры
-  - attr_list
-  - pymdownx.highlight:
-      anchor_linenums: true
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
+  - admonition             # Цветные блоки
+  - pymdownx.details       # Раскрывающиеся списки
+  - pymdownx.superfences   # Для вложенности кода в спойлеры
+  - pymdownx.arithmatex    # Для отображения математических формул
+  - attr_list              # Управление оформлением
+  - pymdownx.highlight:    # Подсветка кода
+      pygments_lang_class: true  # Для раскраски кода
+  - pymdownx.inlinehilite  # Подсветка кода внутри предложений
 
-
-# Блок для корректной работы формул через MathJax
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
   social:
