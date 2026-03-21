@@ -1,0 +1,76 @@
+# Лабораторная работа №11: Проект
+
+Фреймворк: Django
+
+Методология ветвления: GitHub Flow
+
+### Цель работы
+Разработать приложение для учета личных расходов.
+
+### Структура проекта
+
+Проект организован по классической схеме Django с разделением логики на модули:
+
+* config/ — основные настройки проекта (settings.py, urls.py).
+
+* web/ — основное приложение трекера:
+
+    * models/ — архитектура базы данных:
+  
+        * user.py — кастомная модель AppUser (UUID, расширенные поля).
+      
+        * expense.py — модель учета расходов. 
+      
+        * category.py — категории трат. 
+      
+        * payment_method.py — способы оплаты. 
+      
+        * author.py — данные авторов.
+      
+    * tests/ — папка с Unit-тестами (тесты для всех моделей, шаблонов и контроллера views.py).
+
+    * templates/web/ — интерфейс приложения:
+  
+        * base.html — базовый шаблон (шапка, подвал).
+      
+        * list.html — главная страница со списком трат.
+      
+        * analytics.html — страница графиков и итогов.
+      
+        * about_authors.html — информация о команде.
+      
+        * login.html / register.html — формы авторизации.
+      
+    * static/ — пользовательские стили (app.css). 
+  
+    * views.py — бизнес-логика (обработка запросов, фильтрация). 
+  
+    * forms.py — формы Django для добавления и редактирования данных.
+
+* data.json — фикстуры (начальные данные) для быстрого старта.
+
+* db.sqlite3 — локальная база данных.
+
+* requirements.txt — список зависимостей для развертывания.
+
+### Скриншоты работы сайта
+
+* Регистрация и вход
+![lab11_registration.png](..%2Fassets%2Fimages%2Flab11_registration.png)
+![lab11_login.png](..%2Fassets%2Fimages%2Flab11_login.png)
+* Главная страница
+![lab11_index.png](..%2Fassets%2Fimages%2Flab11_index.png)
+* Список пользователей
+![lab11_users.png](..%2Fassets%2Fimages%2Flab11_users.png)
+* Страница пользователя
+![lab11_user.png](..%2Fassets%2Fimages%2Flab11_user.png)
+* Добавление записи о расходах
+![lab11_add_spence.png](..%2Fassets%2Fimages%2Flab11_add_spence.png)
+* Аналитика расходов пользователя
+![lab11_graphs.png](..%2Fassets%2Fimages%2Flab11_graphs.png)
+* Страница об авторах
+![lab11_about_authors.png](..%2Fassets%2Fimages%2Flab11_about_authors.png)
+
+
+### Ссылка на репозиторий
+[Репозиторий проекта](https://github.com/breakthr0ugh/glowing_potato)
