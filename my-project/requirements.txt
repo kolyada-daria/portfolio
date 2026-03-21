@@ -5,3 +5,4 @@ mkdocs-material
 # extensions
 pymdown-extensions
 pygments
+mkdocs-minify-plugin # to use graphs and pdf-files
