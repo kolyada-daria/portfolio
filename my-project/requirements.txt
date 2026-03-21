@@ -1,3 +1,7 @@
+# generator and theme
 mkdocs
-mkdocs-lantana-theme
+mkdocs-material
+
+# extensions
 pymdown-extensions
+pygments
