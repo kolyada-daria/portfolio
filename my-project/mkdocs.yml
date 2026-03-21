@@ -1,1 +1,47 @@
-site_name: My Docs
+site_name: Портфолио | Дарья Коляда
+site_description: Персональный сайт с отчетами по лабораторным работам
+site_author: Коляда Дарья
+
+nav:
+  - Главная: index.md
+  - Лабораторные работы:
+      - Обзор работ: labs/index.md
+      - Лабораторная №1: labs/lab1.md
+      - Лабораторная №2: labs/lab2.md
+      - Лабораторная №3: labs/lab3.md
+      - Лабораторная №4: labs/lab4.md
+      - Лабораторная №5: labs/lab5.md
+      - Лабораторная №6: labs/lab6.md
+      - Лабораторная №7: labs/lab7.md
+      - Лабораторная №8: labs/lab8.md
+      - Лабораторная №9: labs/lab9.md
+      - Лабораторная №10: labs/lab10.md
+  - About: about.md
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.tabs # Горизонтальное меню сверху
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details       # Для спойлеров (??? info)
+  - pymdownx.superfences # Для вложенности кода в спойлеры
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+
+
+# Блок для корректной работы формул через MathJax
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kolyada-daria
