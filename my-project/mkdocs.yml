@@ -5,25 +5,51 @@ site_author: Коляда Дарья
 nav:
   - Главная: index.md
   - Лабораторные работы:
-      - Обзор работ: labs/index.md
-      - Лабораторная №1: labs/lab1.md
-      - Лабораторная №2: labs/lab2.md
-      - Лабораторная №3: labs/lab3.md
-      - Лабораторная №4: labs/lab4.md
-      - Лабораторная №5: labs/lab5.md
-      - Лабораторная №6: labs/lab6.md
-      - Лабораторная №7: labs/lab7.md
-      - Лабораторная №8: labs/lab8.md
-      - Лабораторная №9: labs/lab9.md
-      - Лабораторная №10: labs/lab10.md
-      - Лабораторная №11: labs/lab11.md
+    - Обзор работ: labs/index.md
+    - 1 курс 2025 год:
+      - Лабораторная №1: labs/1year_2025/lab1_2025.md
+      - Лабораторная №2: labs/1year_2025/lab2_2025.md
+      - Лабораторная №3: labs/1year_2025/lab3_2025.md
+      - Лабораторная №4: labs/1year_2025/lab4_2025.md
+      - Лабораторная №5: labs/1year_2025/lab5_2025.md
+      - Лабораторная №6: labs/1year_2025/lab6_2025.md
+      - Лабораторная №7: labs/1year_2025/lab7_2025.md
+      - Лабораторная №8: labs/1year_2025/lab8_2025.md
+      - Лабораторная №9: labs/1year_2025/lab9_2025.md
+      - Лабораторная №10: labs/1year_2025/lab10_2025.md
+      - Лабораторная №11: labs/1year_2025/lab11_2025.md
+    - 1 курс 2026 год:
+      - Лабораторная №1: labs/1year_2026/lab1_2026.md
+      - Лабораторная №2: labs/1year_2026/lab2_2026.md
   - Об авторе: about.md
+
+extra_css:
+  - assets/stylesheets/my_design.css
 
 theme:
   name: material
-  language: ru
+  language: ru           # Чтобы поиск и интерфейс были на русском
+  palette:
+    # Настройка для светлой темы
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom    # Указываем custom, чтобы работали цвета из CSS
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Перейти на темную тему
+
+    # Настройка для темной темы
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Перейти на светлую тему
 #  features:
 #    - navigation.tabs # Горизонтальное меню сверху
+
 
 markdown_extensions:
   - admonition             # Цветные блоки
