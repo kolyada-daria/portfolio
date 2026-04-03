@@ -8,8 +8,11 @@
 }
 
 
+
 /* --- ОБЩИЕ НАСТРОЙКИ --- */
 
+
+/* ВЫДЕЛЕНИЕ ПРИ НАВЕДЕНИИ */
 /* Настройка выделения (зеленый акцент) */
 ::selection {
   background-color: #e7e2de !important;
@@ -49,6 +52,9 @@
   fill: #859672 !important;
 }
 
+
+
+/* АКТИВНЫЕ ЭЛЕМЕНТЫ */
 /* Цвет заголовка раскрытой или активной папки */
 .md-nav__item--active > .md-nav__link,
 .md-nav__item--active > .md-nav__link--active {
@@ -71,7 +77,46 @@
 }
 
 
+
+/* БЛОКИ КОДА */
+/* Полоса прогресса/прокрутки под блоками кода */
+.md-code-progress {
+  background-color: #859672 !important;
+}
+
+/* Сама полоса прокрутки для блоков кода */
+.md-typeset pre > code::-webkit-scrollbar-thumb {
+  background-color: #859672 !important;
+}
+
 /* Цвет шапки */
 .md-header {
   background-color: #2f3a55 !important;
+}
+
+
+
+/* РАСКРЫВАЮЩИЕСЯ БЛОКИ */
+/* Рамка и левая полоса раскрывающегося блока (admonition) */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: #859672 !important;
+}
+
+/* Заголовок раскрывающегося блока */
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: rgba(27, 94, 32, 0.1) !important; /* Светло-зеленый фон заголовка */
+  border-bottom: 1px solid #859672 !important;
+}
+
+/* Иконка в заголовке */
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  background-color: #859672 !important; /* Цвет иконки (кружочек) */
+}
+
+/* Стрелочка раскрытия */
+.md-typeset details summary::after {
+  background-color: #859672 !important;
 }
