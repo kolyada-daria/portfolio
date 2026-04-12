@@ -14,9 +14,9 @@ workflows:
             script:
               - python -m pip install --upgrade pip
               - "if [ -f ./my-project/requirements.txt ]; then pip install -r ./my-project/requirements.txt; fi"
-              - cd ./my-project && mkdocs build -d ./docs
-              - echo "Сайт собран в папке ./docs"
-              - ls -la ./docs
+              - cd ./my-project && mkdocs build -d ../docs
+              - echo "Сайт собран в папке ../docs"
+              - ls -la ../docs
 
           - name: publish-to-release-branch
             script:
