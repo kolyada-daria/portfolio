@@ -56,26 +56,26 @@
 ### Скриншоты работы сайта
 
 * Регистрация и вход
-![lab11_registration.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab11_registration.png)
-![lab11_login.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab11_login.png)
+![lab11_registration.png](../../assets/images/images_sem1/lab11_sem1/lab11_registration.png)
+![lab11_login.png](../../assets/images/images_sem1/lab11_sem1/lab11_login.png)
 
 * Главная страница
-![lab11_index.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab11_index.png)
+![lab11_index.png](../../assets/images/images_sem1/lab11_sem1/lab11_index.png)
 
 * Список пользователей
-![lab11_users.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab11_users.png)
+![lab11_users.png](../../assets/images/images_sem1/lab11_sem1/lab11_users.png)
 
 * Страница пользователя
-![lab11_user.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab11_user.png)
+![lab11_user.png](../../assets/images/images_sem1/lab11_sem1/lab11_user.png)
 
 * Добавление записи о расходах
-![lab11_add_spence.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab11_add_spence.png)
+![lab11_add_spence.png](../../assets/images/images_sem1/lab11_sem1/lab11_add_spence.png)
 
 * Аналитика расходов пользователя
-![lab11_graphs.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab11_graphs.png)
+![lab11_graphs.png](../../assets/images/images_sem1/lab11_sem1/lab11_graphs.png)
 
 * Страница об авторах
-![lab11_about_authors.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab11_about_authors.png)
+![lab11_about_authors.png](../../assets/images/images_sem1/lab11_sem1/lab11_about_authors.png)
 
 ### Ссылка на репозиторий
 [Репозиторий проекта](https://github.com/breakthr0ugh/glowing_potato)

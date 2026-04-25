@@ -6,21 +6,21 @@ nav:
   - Главная: index.md
   - Лабораторные работы:
     - Обзор работ: labs/index.md
-    - 1 курс 2025 год:
-      - Лабораторная №1: labs/1year_2025/lab1_2025.md
-      - Лабораторная №2: labs/1year_2025/lab2_2025.md
-      - Лабораторная №3: labs/1year_2025/lab3_2025.md
-      - Лабораторная №4: labs/1year_2025/lab4_2025.md
-      - Лабораторная №5: labs/1year_2025/lab5_2025.md
-      - Лабораторная №6: labs/1year_2025/lab6_2025.md
-      - Лабораторная №7: labs/1year_2025/lab7_2025.md
-      - Лабораторная №8: labs/1year_2025/lab8_2025.md
-      - Лабораторная №9: labs/1year_2025/lab9_2025.md
-      - Лабораторная №10: labs/1year_2025/lab10_2025.md
-      - Лабораторная №11: labs/1year_2025/lab11_2025.md
-    - 1 курс 2026 год:
-      - Лабораторная №1: labs/1year_2026/lab1_2026.md
-      - Лабораторная №2: labs/1year_2026/lab2_2026.md
+    - 1 семестр:
+      - Лабораторная №1: labs/sem1/lab1_sem1.md
+      - Лабораторная №2: labs/sem1/lab2_sem1.md
+      - Лабораторная №3: labs/sem1/lab3_sem1.md
+      - Лабораторная №4: labs/sem1/lab4_sem1.md
+      - Лабораторная №5: labs/sem1/lab5_sem1.md
+      - Лабораторная №6: labs/sem1/lab6_sem1.md
+      - Лабораторная №7: labs/sem1/lab7_sem1.md
+      - Лабораторная №8: labs/sem1/lab8_sem1.md
+      - Лабораторная №9: labs/sem1/lab9_sem1.md
+      - Лабораторная №10: labs/sem1/lab10_sem1.md
+      - Лабораторная №11: labs/sem1/lab11_sem1.md
+    - 2 семестр:
+      - Лабораторная №1: labs/sem2/lab1_sem2.md
+      - Лабораторная №2: labs/sem2/lab2_sem2.md
   - Об авторе: about.md
 
 extra_css:

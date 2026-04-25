@@ -185,26 +185,26 @@ if __name__ == "__main__":
 ### Скриншоты страниц сайта
 
 * Главная страница
-![lab9_index.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab9_index.png)
+![lab9_index.png](../../assets/images/images_sem1/lab9_sem1/lab9_index.png)
 
 * Список пользователей
-![lab9_users.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab9_users.png)
+![lab9_users.png](../../assets/images/images_sem1/lab9_sem1/lab9_users.png)
 
 * Страница пользователя
-![lab9_user2.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab9_user2.png)
-![lab9_user.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab9_user.png)
+![lab9_user2.png](../../assets/images/images_sem1/lab9_sem1/lab9_user2.png)
+![lab9_user.png](../../assets/images/images_sem1/lab9_sem1/lab9_user.png)
 
 * Удаление подписки
-![lab9_user_delete.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab9_user_delete.png)
+![lab9_user_delete.png](../../assets/images/images_sem1/lab9_sem1/lab9_user_delete.png)
 
 * Список валют
-![lab9_currencies.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab9_currencies.png)
+![lab9_currencies.png](../../assets/images/images_sem1/lab9_sem1/lab9_currencies.png)
 
 * Подписки пользователей
-![lab9_subscriptions.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab9_subscriptions.png)
+![lab9_subscriptions.png](../../assets/images/images_sem1/lab9_sem1/lab9_subscriptions.png)
 
 * Страница об авторе
-![lab9_about_author.png](..%2F..%2Fassets%2Fimages%2F1year_2025_images%2Flab9_about_author.png)
+![lab9_about_author.png](../../assets/images/images_sem1/lab9_sem1/lab9_about_author.png)
 
 ### Вывод
 При разработке приложения была использована архитектура MVC, которая разделяет данные, логику и интерфейс.

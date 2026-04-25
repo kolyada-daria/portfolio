@@ -414,37 +414,37 @@
 1. Для первого файла students_scores.csv
     
     * Тепловая карта
-    ![st_scores_csv_heatmap.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_scores_csv_heatmap.png)
+    ![st_scores_csv_heatmap.png](../../assets/images/images_sem2/lab2_sem2/st_scores_csv_heatmap.png)
 
     * Линейный график оценки/студент
-    ![st_scores_csv_line_plot.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_scores_csv_line_plot.png)
+    ![st_scores_csv_line_plot.png](../../assets/images/images_sem2/lab2_sem2/st_scores_csv_line_plot.png)
     
     * Распределение оценок по информатике
-    ![st_scores_csv_распределение_informatics.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_scores_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_informatics.png)
+    ![st_scores_csv_распределение_informatics.png](../../assets/images/images_sem2/lab2_sem2/st_scores_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_informatics.png)
 
     * Распределение оценок по математике
-    ![st_scores_csv_распределение_math.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_scores_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_math.png)
+    ![st_scores_csv_распределение_math.png](../../assets/images/images_sem2/lab2_sem2/st_scores_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_math.png)
 
     * Распределение оценок по физике
-    ![st_scores_scv_распределение_physics.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_scores_scv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_physics.png)
+    ![st_scores_scv_распределение_physics.png](../../assets/images/images_sem2/lab2_sem2/st_scores_scv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_physics.png)
 
 
 2. Для второго файла StudentsPerformance.csv (с сайта kaggle.com)
 
     * Тепловая карта
-    ![st_per_csv_heatmap.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_per_csv_heatmap.png)
+    ![st_per_csv_heatmap.png](../../assets/images/images_sem2/lab2_sem2/st_per_csv_heatmap.png)
 
     * Линейный график оценки/студент
-    ![st_per_csv_line_plot.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_per_csv_line_plot.png)
+    ![st_per_csv_line_plot.png](../../assets/images/images_sem2/lab2_sem2/st_per_csv_line_plot.png)
 
     * Распределение оценок по математике
-    ![st_per_csv_распределение_math_score.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_per_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_math_score.png)
+    ![st_per_csv_распределение_math_score.png](../../assets/images/images_sem2/lab2_sem2/st_per_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_math_score.png)
 
     * Распределение оценок по чтению
-    ![st_per_csv_распределение_reading_score.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_per_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_reading_score.png)
+    ![st_per_csv_распределение_reading_score.png](../../assets/images/images_sem2/lab2_sem2/st_per_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_reading_score.png)
 
     * Распределение оценок по письму
-    ![st_per_csv_распределение_writing_score.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Fst_per_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_writing_score.png)
+    ![st_per_csv_распределение_writing_score.png](../../assets/images/images_sem2/lab2_sem2/st_per_csv_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_writing_score.png)
 
 
 ### Тесты
@@ -577,13 +577,13 @@
 
 Полученные графики:
 * Тепловая карта
-![test_heatmap.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Ftest_heatmap.png)
+![test_heatmap.png](../../assets/images/images_sem2/lab2_sem2/test_heatmap.png)
 
 * Линейный график оценки/студент
-![test_line_plot.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Ftest_line_plot.png)
+![test_line_plot.png](../../assets/images/images_sem2/lab2_sem2/test_line_plot.png)
 
 * График распределения оценок
-![test_распределение_оценок.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Ftest_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BE%D1%86%D0%B5%D0%BD%D0%BE%D0%BA.png)
+![test_распределение_оценок.png](../../assets/images/images_sem2/lab2_sem2/test_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BE%D1%86%D0%B5%D0%BD%D0%BE%D0%BA.png)
 
 
 
@@ -668,13 +668,13 @@
 Полученные графики:
 
 * Тепловая карта
-![test_run_an_heatmap.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Ftest_run_an_heatmap.png)
+![test_run_an_heatmap.png](../../assets/images/images_sem2/lab2_sem2/test_run_an_heatmap.png)
 
 * Линейный график оценки/студент
-![test_run_an_line_plot.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Ftest_run_an_line_plot.png)
+![test_run_an_line_plot.png](../../assets/images/images_sem2/lab2_sem2/test_run_an_line_plot.png)
 
 * График распределения оценок
-![test_run_an_hist.png](..%2F..%2Fassets%2Fimages%2F1year_2026_images%2Flab2_1_26%2Ftest_run_an_hist.png)
+![test_run_an_hist.png](../../assets/images/images_sem2/lab2_sem2/test_run_an_hist.png)
 
 
 ### Нюансы при решении
