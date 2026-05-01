@@ -1,0 +1,122 @@
+/* --- СВЕТЛАЯ ТЕМА (default) --- */
+[data-md-color-scheme="default"] {
+  /* Фон страницы */
+  --md-default-bg-color: #f2f5f1 !important;
+
+  /* Цвет текста */
+  --md-default-fg-color: #2f3a55 !important;
+}
+
+
+
+/* --- ОБЩИЕ НАСТРОЙКИ --- */
+
+
+/* ВЫДЕЛЕНИЕ ПРИ НАВЕДЕНИИ */
+/* Настройка выделения (зеленый акцент) */
+::selection {
+  background-color: #e7e2de !important;
+  color: #859672 !important;           /* Темно-зеленый текст */
+}
+
+/* Эффект при наведении на ссылки в тексте */
+.md-typeset a:hover {
+  color: #859672 !important;
+  text-decoration: underline; /* Подчеркивание для наглядности */
+}
+
+/* Чтобы все элементы списка в меню тоже меняли цвет */
+.md-nav__link:hover {
+  color: #859672 !important;
+}
+
+/* Цвет текста текущей (активной) страницы в меню слева */
+.md-nav__link--active {
+  color: #859672 !important; /* Темно-зеленый из палитры */
+  font-weight: 700;           /* Сделаем чуть жирнее для акцента */
+}
+
+/* Цвет индикатора (полоски) в оглавлении справа и активных подпунктов */
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link {
+  color: #97a375 !important;
+}
+
+/* Цвет текста при наведении на активный пункт (чтобы не прыгал цвет) */
+.md-nav__link--active:hover {
+  color: #859672 !important; /* Светло-зеленый при наведении */
+}
+
+/* Если есть иконки или стрелочки рядом с активным пунктом */
+.md-nav__item--active > .md-nav__link .md-nav__icon {
+  fill: #859672 !important;
+}
+
+
+
+/* АКТИВНЫЕ ЭЛЕМЕНТЫ */
+/* Цвет заголовка раскрытой или активной папки */
+.md-nav__item--active > .md-nav__link,
+.md-nav__item--active > .md-nav__link--active {
+  color: #859672 !important;
+}
+
+/* Цвет иконки-стрелочки у раскрытой папки */
+.md-nav__item--active > .md-nav__link .md-nav__icon {
+  fill: #859672 !important;
+}
+
+/* Чтобы текст "Лабораторные работы" и др. не оставался синим при раскрытии */
+.md-nav__item .md-nav__toggle:checked ~ .md-nav__link {
+  color: #859672 !important;
+}
+
+/* Цвет стрелочки при раскрытии (состояние checked) */
+.md-nav__item .md-nav__toggle:checked ~ .md-nav__link .md-nav__icon {
+  fill: #859672 !important;
+}
+
+
+
+/* БЛОКИ КОДА */
+/* Полоса прогресса/прокрутки под блоками кода */
+.md-code-progress {
+  background-color: #859672 !important;
+}
+
+/* Сама полоса прокрутки для блоков кода */
+.md-typeset pre > code::-webkit-scrollbar-thumb {
+  background-color: #859672 !important;
+}
+
+/* Цвет шапки */
+.md-header {
+  background-color: #2f3a55 !important;
+}
+
+
+
+/* РАСКРЫВАЮЩИЕСЯ БЛОКИ */
+/* Рамка и левая полоса раскрывающегося блока (admonition) */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: #859672 !important;
+}
+
+/* Заголовок раскрывающегося блока */
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background-color: rgba(27, 94, 32, 0.1) !important; /* Светло-зеленый фон заголовка */
+  border-bottom: 1px solid #859672 !important;
+}
+
+/* Иконка в заголовке */
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  background-color: #859672 !important; /* Цвет иконки (кружочек) */
+}
+
+/* Стрелочка раскрытия */
+.md-typeset details summary::after {
+  background-color: #859672 !important;
+}
